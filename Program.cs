@@ -21,7 +21,7 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.MapGet("/", () => Results.Content(
-    "<h1>Hello World</h1><p>Web API DEV is running</p>",
+    "<h1>Hello World</h1><p>Web API DEV2 is running</p>",
     "text/html"
 ));
 
